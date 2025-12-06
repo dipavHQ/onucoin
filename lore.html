@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OnuCoin Lore · DIPAV Anti-Vapid Codex</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="The lore of OnuCoin (ONU) and the DIPAV anti-vapid movement: UNO reversed, VAPID reversed, Draw Four cosmology, Burn Out Like a King protocol, and the four pillars of reversal."
+  />
+  <style>
+    :root {
+      --bg: #050508;
+      --bg-soft: #0b0b12;
+      --gold: #f3c96a;
+      --gold-soft: #c39b3d;
+      --text: #f5f5f5;
+      --muted: #a5a5b2;
+      --accent: #7dd3fc;
+      --border-soft: 1px solid rgba(243, 201, 106, 0.16);
+      --radius-lg: 18px;
+      --radius-pill: 999px;
+      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.8);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+      background: radial-gradient(circle at top, #171722, #050508 60%, #000 100%);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-pill {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #000;
+      border: 2px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--gold);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-text span:first-child {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--muted);
+    }
+
+    .brand-text span:last-child {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .nav-link {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .nav-link a {
+      color: var(--accent);
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .nav-link a:hover { text-decoration: underline; }
+
+    h1 {
+      font-size: clamp(28px, 4vw, 34px);
+      margin: 4px 0 6px;
+      color: var(--gold);
+      text-shadow: 0 0 20px rgba(243, 201, 106, 0.35);
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--muted);
+      max-width: 640px;
+      line-height: 1.8;
+    }
+
+    section {
+      margin-top: 32px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--muted);
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 4px 0 8px;
+      color: var(--gold);
+    }
+
+    h3 {
+      font-size: 16px;
+      margin: 18px 0 4px;
+      color: var(--gold-soft);
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.8;
+      margin: 3px 0 10px;
+      max-width: 780px;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 6px 0 10px;
+    }
+
+    li {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .quote {
+      border-left: 2px solid rgba(243, 201, 106, 0.4);
+      padding-left: 12px;
+      font-style: italic;
+      color: var(--muted);
+      margin: 8px 0 14px;
+      font-size: 14px;
+    }
+
+    .card {
+      background: var(--bg-soft);
+      border-radius: var(--radius-lg);
+      border: var(--border-soft);
+      padding: 16px 16px 18px;
+      margin-top: 12px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(31, 41, 55, 0.95);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="brand">
+        <div class="logo-pill">↺</div>
+        <div class="brand-text">
+          <span>DIPAV™ UNIVERSE</span>
+          <span>ONUCOIN LORE</span>
+        </div>
+      </div>
+      <div class="nav-link">
+        <a href="/index.html">← Back to main site</a>
+      </div>
+    </header>
+
+    <main>
+      <h1>The OnuCoin & DIPAV Lore Codex</h1>
+      <div class="subtitle">
+        This is the deeper layer: where UNO becomes ONU, VAPID becomes DIPAV, Draw Four becomes cosmology, and burnout is not a glitch but a coronation protocol.
+      </div>
+
+      <!-- Meaning of ONU -->
+      <section id="onu">
+        <div class="section-label">1 · Name Alchemy</div>
+        <h2>From UNO to ONU — Reversing the Game</h2>
+        <p>
+          <strong>OnuCoin</strong> begins as a linguistic inversion: <strong>UNO → ONU</strong>.
+        </p>
+        <p>
+          UNO is a game of social chaos — direction changes, surprise punishments, and the gleeful derailment of someone else’s carefully stacked plan.
+          Its core excitement is not progress; it’s <em>disruption</em>.
+        </p>
+        <p>
+          When you reverse UNO into ONU, you’re not just flipping letters. You’re flipping the point:
+        </p>
+        <ul>
+          <li>From being at the mercy of the deck → to choosing the timing of the reversal.</li>
+          <li>From reactive chaos → to intentional disruption.</li>
+          <li>From “this is happening to me” → to “I decide when this shifts.”</li>
+        </ul>
+        <p>
+          <strong>OnuCoin is that meta-reversal made visible.</strong>  
+          A symbol for the people who no longer let the “game” (work, dating, expectations, culture) be played on their backs.
+        </p>
+        <div class="quote">
+          UNO is the chaos. <br />
+          ONU is the choice.
+        </div>
+      </section>
+
+      <!-- DIPAV Meaning -->
+      <section id="dipav">
+        <div class="section-label">2 · Doctrine</div>
+        <h2>DIPAV — VAPID, Reversed</h2>
+        <p>
+          DIPAV™ is not branding. It’s a diagnosis and a cure baked into five letters.
+        </p>
+        <p>
+          Take the word <strong>VAPID</strong> — colorless, shallow, exhausted of meaning.  
+          Reverse it and you get <strong>DIPAV</strong> — the commitment to live the exact opposite way.
+        </p>
+        <p>
+          VAPID culture is:
+        </p>
+        <ul>
+          <li>always “on,”</li>
+          <li>always “busy,”</li>
+          <li>always broadcasting,</li>
+          <li>always performing depth without doing the work.</li>
+        </ul>
+        <p>
+          DIPAV is:
+        </p>
+        <ul>
+          <li>selective,</li>
+          <li>deliberate,</li>
+          <li>prestige-level in what it shares,</li>
+          <li>allergic to try-hard aesthetics.</li>
+        </ul>
+        <p>
+          In the cosmic stack:
+        </p>
+        <div class="quote">
+          <strong>DIPAV is the philosophy. OnuCoin is the emblem.</strong><br />
+          DIPAV is the operating system. OnuCoin is the on-chain glyph that carries it.
+        </div>
+        <p>
+          UNO/ONU reverses the <em>game</em>.  
+          VAPID/DIPAV reverses the <em>culture</em>.
+        </p>
+      </section>
+
+      <!-- Draw Four Cosmology -->
+      <section id="draw-four">
+        <div class="section-label">3 · Cosmology</div>
+        <h2>The Draw Four Doctrine</h2>
+        <p>
+          In UNO, the <strong>Draw Four</strong> card is hated, feared, and secretly admired.  
+          It doesn’t just nudge the game; it <em>reshapes it completely</em>.
+        </p>
+        <p>
+          In the DIPAV universe, <strong>Draw Four</strong> is more than a play. It’s a metaphysical move:
+        </p>
+        <ul>
+          <li>interrupting patterns,</li>
+          <li>forcing a pause,</li>
+          <li>resetting emotional or strategic momentum,</li>
+          <li>reclaiming authorship over what happens next.</li>
+        </ul>
+        <p>
+          OnuCoin encodes this through its supply: <strong>4,444,444 ONU</strong>.  
+          The number isn’t cute; it’s a repeating reminder:
+        </p>
+        <ul>
+          <li>Four Anti-Vapid Pillars.</li>
+          <li>Four key phases of reversal: Notice → Refuse → Reverse → Rewrite.</li>
+          <li>Four stages of Burn Out Like a King™.</li>
+          <li>Four ways to exit any situation: stay, leave, reverse, reframe.</li>
+        </ul>
+        <div class="quote">
+          Draw Four is not aggression. It’s architectural interruption.  
+          In DIPAV terms: the moment you decide the old pattern never resumes.
+        </div>
+      </section>
+
+      <!-- Four Pillars -->
+      <section id="pillars">
+        <div class="section-label">4 · Structure</div>
+        <h2>The Four Anti-Vapid Pillars</h2>
+
+        <div class="card">
+          <h3>1. Reverse Vapid</h3>
+          <p>
+            The world tries to drown you in content, opinions, metrics, and demands.  
+            Reverse Vapid is the discipline of <strong>pulling your energy back.</strong>
+          </p>
+          <p>
+            You stop rewarding chaos with reaction.  
+            You stop rewarding noise with attention.  
+            You become scarce on purpose.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>2. Draw Four</h3>
+          <p>
+            The right to pivot without apology, explanation, or permission.  
+            A DIPAV-aligned person is allowed to reverse direction at any time:
+          </p>
+          <ul>
+            <li>career pivots,</li>
+            <li>relationship exits,</li>
+            <li>identity upgrades,</li>
+            <li>complete life redesign.</li>
+          </ul>
+          <p>
+            Draw Four says: “I am not beholden to the version of me you met yesterday.”
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>3. Burn Out Like a King™</h3>
+          <p>
+            Burnout is not a moral failure. It’s a system failure — and DIPAV refuses to hide it.
+          </p>
+          <p>
+            <strong>Burn Out Like a King™ (BULAK)</strong> is the ritual where:
+          </p>
+          <ul>
+            <li>you acknowledge the crash,</li>
+            <li>you refuse shame,</li>
+            <li>you extract the lesson,</li>
+            <li>you treat recovery as a coronation, not a retreat.</li>
+          </ul>
+          <p>
+            The crown isn’t given when you “never fall.”  
+            It’s given when you <em>fall and rise with narrative precision.</em>
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>4. Proof of Legendary™</h3>
+          <p>
+            Vapid culture measures status with:
+          </p>
+          <ul>
+            <li>output,</li>
+            <li>ego,</li>
+            <li>volume,</li>
+            <li>spectacle.</li>
+          </ul>
+          <p>
+            DIPAV measures status with:
+          </p>
+          <ul>
+            <li>how elegantly you exit,</li>
+            <li>how intentionally you pivot,</li>
+            <li>how precisely you reverse,</li>
+            <li>how clean your story reads when someone studies it.</li>
+          </ul>
+          <p>
+            <strong>Proof of Legendary™</strong> is not a metric.  
+            It’s a narrative audit — and some people will fail it loudly.
+          </p>
+        </div>
+      </section>
+
+      <!-- BULAK details -->
+      <section id="bulak">
+        <div class="section-label">5 · Ritual</div>
+        <h2>Burn Out Like a King™ (BULAK) — The Protocol</h2>
+        <p>
+          The world tells you: “Hide your burnout. Be ashamed of being tired.”  
+          DIPAV says: “If you’re going to burn out, burn out like royalty.”
+        </p>
+        <p>
+          The <strong>BULAK cycle</strong> moves in four phases:
+        </p>
+        <ol>
+          <li><strong>Overload</strong> — You hit the limit. The system demands too much.</li>
+          <li><strong>Refusal</strong> — You stop pretending it’s fine. You reverse out of performance mode.</li>
+          <li><strong>Coronation</strong> — You claim the experience as data, not damage. You extract status from survival.</li>
+          <li><strong>Reauthoring</strong> — You rewrite your story with new boundaries, new standards, new direction.</li>
+        </ol>
+        <p>
+          Burnout, in DIPAV, is not a scar.  
+          It’s a <strong>badge</strong> — provided you process it with honesty and style.
+        </p>
+        <div class="quote">
+          You’re not punished for burning out.  
+          You’re punished for lying about it and staying in the same loop.
+        </div>
+      </section>
+
+      <!-- Symbol -->
+      <section id="symbol">
+        <div class="section-label">6 · Symbol</div>
+        <h2>What OnuCoin Ultimately Represents</h2>
+        <p>
+          OnuCoin is a symbolic, cultural, artistic asset —
+          <br />beyond financials,  
+          beyond promises,  
+          beyond Moons.
+        </p>
+        <p>
+          It is the emblem of:
+        </p>
+        <ul>
+          <li>meaning over noise,</li>
+          <li>movement over stagnation,</li>
+          <li>reversal over resignation.</li>
+        </ul>
+        <p>
+          If this makes immediate sense to you, you don’t need a whitepaper.  
+          If it doesn’t, DIPAV won’t argue.
+        </p>
+        <p><strong>IYKYK.</strong></p>
+      </section>
+    </main>
+
+    <footer>
+      Lore maintained by DIPAV HQ · Reverse-vapid, always.
+      <br />
+      <a href="/index.html">Return to OnuCoin main page</a>
+    </footer>
+  </div>
+</body>
+</html>
