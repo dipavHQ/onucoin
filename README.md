@@ -1,113 +1,245 @@
 # OnuCoin (ONU)
-### *The Reverse-Vapid Prestige-Meme Token of the DIPAV™ Universe*  
-**Built on Base · ERC-20 · Total Supply: 4,444,444 ONU**
+### *The Reverse-Vapid Token of the DIPAV™ Universe*  
+*Meaning-first. Myth-built. A prestige-meme asset of reversal and sovereignty.*
 
 ---
 
-## 🌑 Overview
+# 🌑 What OnuCoin Means  
+Before it is a token, before it is a symbol, **OnuCoin is a reversal.**
 
-**OnuCoin (ONU)** is the official token of the **DIPAV™ universe**, a prestige-meme, reverse-vapid cultural protocol built on **Base**.  
-It embodies the *UNO Reverse ethos* — flipping narratives, rejecting hustle-culture absurdity, and rewarding the art of doing less, elegantly.
+“ONU” is simply **UNO reversed**.
 
-This repository contains:
+Why does that matter?
 
-- The official **OnuCoin website** (deployed via Vercel)  
-- Future protocol documentation  
-- Branding assets  
-- DIPAV ecosystem materials  
+Because UNO, the game, is built on chaos, sudden shifts, surprise pivots, and the absolute delight of disrupting someone else’s straight line.  
+UNO is not strategy — it is **strategic disruption**.
+
+When you reverse UNO, you get **ONU**:
+- the inversion of inversion,  
+- the disruption of disruption,  
+- the meta-move,  
+- the shift behind the shift.
+
+OnuCoin is a token whose *name* is itself a reversal spell.
+
+It encodes the philosophy of:
+- changing direction at will,
+- refusing linearity,
+- refusing to play the expected role,
+- breaking the rhythm the world tries to force on you.
+
+**OnuCoin = reversal made into currency.**
 
 ---
 
-## 🪙 Token Details
+# 🜁 Why UNO? Why Reversal?  
+UNO has one of the most powerful mechanics ever invented:  
+**the Reverse Card.**
+
+A reverse card:
+- flips energy,  
+- redirects pressure,  
+- undoes momentum,  
+- reassigns agency,  
+- restores control.
+
+In life, reversal is not chaos — it is **intention.**  
+It is the queen’s move.
+
+When the world pushes, you reverse.  
+When others demand urgency, you reverse.  
+When burnout accumulates, you reverse into sovereignty.
+
+OnuCoin symbolizes the moment you decide:  
+**“No — this does not go that way anymore.”**
+
+It is a token of *directional authority.*
+
+---
+
+# 🜂 DIPAV — Vapid, Reversed  
+DIPAV is not a meme.  
+It is an operating system.
+
+DIPAV is literally **vapid reversed** —  
+another intentional linguistic inversion.
+
+Where vapid means:
+- shallow,  
+- noisy,  
+- performative,  
+- try-hard,  
+- desperate for attention…
+
+DIPAV represents:
+- depth,  
+- precision,  
+- discernment,  
+- sovereignty,  
+- non-performative intention.
+
+DIPAV is the framework;  
+OnuCoin is the artifact inside that framework.
+
+In other words:
+
+### **DIPAV is the doctrine.  
+OnuCoin is the sigil.**
+
+Or, more elegantly:
+
+### **DIPAV is the philosophy.  
+OnuCoin is the instrument.**
+
+UNO → ONU (reverse of chaos)  
+VAPID → DIPAV (reverse of emptiness)
+
+One is the movement.  
+One is the currency.
+
+They lock together like myth and mechanism.
+
+---
+
+# 🜄 The Power of “Draw Four”  
+If UNO is the game of chaos,  
+**Draw Four is the god-tier power move.**
+
+Draw Four means:
+- overwhelming shift,  
+- total hand reset,  
+- narrative domination,  
+- forced pause,  
+- forced reconsideration,  
+- forced respect.
+
+Draw Four is not aggression —  
+it is **inevitable reconfiguration.**
+
+In DIPAV cosmology:
+
+**Draw Four = Reversal × Sovereignty.**
+
+It symbolizes:
+- the four directions,  
+- the four phases of burnout and restoration,  
+- the four pillars of anti-vapid culture,  
+- the four steps of the Burn Out Like a King™ ritual,  
+- the “flip” moments in life where everything changes at once.
+
+This is why the total supply of OnuCoin is **4,444,444.**  
+It is not random.  
+It is not aesthetic.  
+It is numerological alignment.
+
+Four is the architecture of reversal.
+
+---
+
+# 🜇 How It All Nests (Cosmology)  
+
+Here is the metaphysical stack:
+
+### **1. DIPAV (top level)**  
+The philosophy, doctrine, and anti-vapid movement.  
+The reversal of modern emptiness.
+
+### **2. The Anti-Vapid Pillars (core framework)**  
+- Reverse Vapid  
+- Draw Four  
+- Burn Out Like a King™  
+- Proof of Legendary™
+
+These are the practices and principles.
+
+### **3. OnuCoin (token layer)**  
+A symbolic asset encoding DIPAV principles into supply, naming, numerology, and narrative usage.
+
+### **4. Burn Out Like a King™ Protocol (ritual layer)**  
+A narrative mechanism (collapse → crown → clarity).  
+Token rituals and lore will anchor here.
+
+DIPAV is the cosmos.  
+The Anti-Vapid Pillars are the laws.  
+OnuCoin is the sigil.  
+BULAK is the rite.
+
+Everything fits.
+
+---
+
+# 🪙 Token Details
 
 | Property | Value |
-|----------|--------|
+|---------|--------|
 | **Name** | OnuCoin |
 | **Symbol** | ONU |
 | **Chain** | Base |
 | **Standard** | ERC-20 |
 | **Total Supply** | 4,444,444 ONU |
-| **Contract Address** | `0x6dE119607B5606e60cD5879CeCB7Ea1d53aF992c` |
+| **Contract** | `0x6dE119607B5606e60cD5879CeCB7Ea1d53aF992c` |
+
+OnuCoin is a cultural primitive, not a degen instrument.
 
 ---
 
-## 🏛️ Architecture
+# 🏛️ Sovereignty Architecture  
 
-OnuCoin is governed and structured using a two-wallet, founder-forward design:
+### **Founder Wallet** — 4,400,000 ONU  
+Sovereign direction. Narrative governance.
 
-### **Founder Wallet**
-- Holds **4,400,000 ONU (~99%)**  
-- Controls ownership & protocol authority  
-
-### **Treasury Wallet**
-- Holds **44,444 ONU (~1%)**  
-- Reserved for future DIPAV utilities, incentives, and narrative-driven experiments  
-
-This architecture keeps governance clean, intentional, and expansive while preserving long-term flexibility.
+### **Treasury Wallet** — 44,444 ONU  
+For rituals, lore, reversals, and DIPAV expansions.
 
 ---
 
-## 🌐 Website
+# 🌘 Genesis Phase  
 
-The official OnuCoin site is deployed at:
+Intentionally **non-liquid**.  
+Narrative comes before markets.  
+Culture comes before charts.  
+Meaning comes before mechanics.
 
-👉 **https://onucoin.vercel.app/**
-
-Source files live in this repository (`index.html`).
-
----
-
-## 🖼️ Branding & Assets
-
-This repository will include (or link to):
-
-- `favicon.png`  
-- `onucoin-token.png`  
-- `icon.png` (512×512 app icon)  
-- `og-image.png` (social preview)  
-- OnuCoin brand marks  
-- DIPAV™ design system components  
-
-Visual identity:
-
-**Black background · Gold ring · White arrows · Prestige-protocol aesthetic**
+When DIPAV is ready, liquidity becomes a **story beat**, not a trading event.
 
 ---
 
-## 📜 Disclaimer
-
-OnuCoin (ONU) is a **cultural, experimental, narrative-driven asset** within the DIPAV™ universe.  
-It is **not financial advice** and carries no promise of returns, yield, or appreciation.  
-Engage only if you understand the nature of symbolic crypto-assets and narrative-centric ecosystems.
+# 🌐 Website  
+https://onucoin.vercel.app/
 
 ---
 
-## 🧱 Roadmap (Genesis Phase)
+# 🜄 Pillars of the Anti-Vapid Movement  
 
-- ✔ Token deployed on Base  
-- ✔ Founder & Treasury architecture structured  
-- ✔ Metadata configured  
-- ✔ Website deployed  
-- ⬜ Release branding assets  
-- ⬜ Publish official DIPAV documentation  
-- ⬜ Introduce community elements  
-- ⬜ Add liquidity when narrative is ready  
-- ⬜ Expand DIPAV protocol features  
+### **Reverse Vapid**  
+The refusal to drown in noise.
 
----
+### **Draw Four**  
+The power to pivot the narrative entirely.
 
-## 🤝 Contributions
+### **Burn Out Like a King™**  
+Collapse as coronation.
 
-This repository is maintained by **DIPAV HQ**.  
-At this phase, contributions are private.  
-Public contribution workflows will be announced in later stages of the ecosystem.
+### **Proof of Legendary™**  
+Value measured in myth, not metrics.
 
 ---
 
-## 🔗 Related
+# 📜 Disclaimer  
+OnuCoin is a **symbolic, cultural, artistic asset**.  
+Beyond financials.  
+Beyond promises.  
+Beyond Moons.
 
-- Base → https://base.org  
-- DIPAV HQ GitHub → https://github.com/dipavHQ  
+
+It represents meaning, movement, and reversal — IYKYK.
 
 ---
 
+# 👁 Maintained by DIPAV HQ  
+Curator of the Reverse.  
+Architect of the Anti-Vapid.  
+Keeper of the Draw Four.  
+Alchemist of Burnout → Crown.
+
+More lore unfolds soon.
