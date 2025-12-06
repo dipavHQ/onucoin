@@ -90,8 +90,8 @@ Engage only if you understand the nature of symbolic crypto-assets and narrative
 - ✔ Website deployed  
 - ⬜ Release branding assets  
 - ⬜ Publish official DIPAV documentation  
-- ⬜ (Soon-ish) Introduce community elements  
-- ⬜ (Coming-ish) Add liquidity when narrative is ready  
+- ⬜ Introduce community elements  
+- ⬜ Add liquidity when narrative is ready  
 - ⬜ Expand DIPAV protocol features  
 
 ---
@@ -111,12 +111,3 @@ Public contribution workflows will be announced in later stages of the ecosystem
 
 ---
 
-If you'd like, I can generate:
-
-- A GitHub repo banner  
-- A `CONTRIBUTING.md` file  
-- A `tokenlist.json` for DEX integrations  
-- Auto-generated README badges  
-- A `/docs` folder for DIPAV protocol expansion  
-
-Just say **“Add banner”**, **“Add tokenlist”**, etc.
