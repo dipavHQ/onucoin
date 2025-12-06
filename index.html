@@ -2,96 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>OnuCoin (ONU) – The Reverse-Vapid Coin of the DIPAV™ Universe</title>
+  <title>OnuCoin (ONU) – The Reverse-Vapid Token of the DIPAV™ Universe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="OnuCoin (ONU) – the official reverse-vapid prestige-meme token of the DIPAV™ universe. Built on Base. UNO Reverse ethos, luxury aesthetic, and narrative power."
+    content="OnuCoin (ONU) – the reverse-vapid, prestige-meme token of the DIPAV universe. UNO reversed, VAPID reversed, Draw Four cosmology, and anti-vapid movement encoded on Base."
   />
   <style>
     :root {
       --bg: #050508;
-      --bg-alt: #0d0d13;
+      --bg-soft: #0b0b12;
       --gold: #f3c96a;
-      --gold-soft: #d6a84c;
+      --gold-soft: #c39b3d;
       --text: #f7f7f7;
-      --muted: #a3a3b3;
+      --muted: #a5a5b2;
       --accent: #7dd3fc;
-      --danger: #fb7185;
-      --radius-lg: 20px;
+      --border-soft: 1px solid rgba(243, 201, 106, 0.16);
+      --radius-lg: 18px;
       --radius-pill: 999px;
       --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.7);
-      --border-soft: 1px solid rgba(243, 201, 106, 0.12);
     }
 
+    * { box-sizing: border-box; }
+
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter",
-        sans-serif;
       margin: 0;
-      background: radial-gradient(circle at top, #151521 0, #050508 55%, #000 100%);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+      background: radial-gradient(circle at top, #171722, #050508 60%, #000 100%);
       color: var(--text);
       -webkit-font-smoothing: antialiased;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
+    a { color: inherit; text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
     .page {
-      max-width: 1120px;
+      max-width: 980px;
       margin: 0 auto;
-      padding: 32px 20px 64px;
+      padding: 32px 20px 80px;
     }
 
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 40px;
+      gap: 12px;
+      margin-bottom: 28px;
     }
 
     .brand {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
     }
 
     .logo-pill {
-      width: 40px;
-      height: 40px;
+      width: 42px;
+      height: 42px;
       border-radius: 50%;
-      background: black;
+      background: #000;
       border: 2px solid var(--gold);
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: var(--shadow-soft);
-      font-size: 20px;
+      font-size: 22px;
+      font-weight: 800;
       color: var(--gold);
-      font-weight: 700;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
     }
 
     .brand-text span:first-child {
-      font-size: 12px;
-      letter-spacing: 0.18em;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
       color: var(--muted);
     }
 
     .brand-text span:last-child {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
-      letter-spacing: 0.1em;
-      color: var(--gold);
+      letter-spacing: 0.12em;
       text-transform: uppercase;
+      color: var(--gold);
     }
+
+    .nav-link {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .nav-link a {
+      color: var(--accent);
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .nav-link a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero */
 
     .hero {
       display: grid;
-      grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-      gap: 32px;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+      gap: 26px;
       align-items: center;
-      margin-bottom: 52px;
+      margin-bottom: 38px;
     }
 
     @media (max-width: 840px) {
@@ -100,111 +123,204 @@
       }
     }
 
-    .hero-title {
-      font-size: clamp(30px, 5vw, 42px);
-      font-weight: 700;
-      margin-bottom: 12px;
-    }
-
-    .gold {
+    .hero-main h1 {
+      font-size: clamp(30px, 5vw, 40px);
+      margin: 4px 0 10px;
       color: var(--gold);
-      text-shadow: 0 0 20px rgba(243, 201, 106, 0.4);
+      text-shadow: 0 0 22px rgba(243, 201, 106, 0.35);
     }
 
-    .hero-subtitle {
-      font-size: 15px;
+    .hero-main .tagline {
+      font-size: 14px;
       color: var(--muted);
-      max-width: 540px;
+      max-width: 560px;
+      line-height: 1.7;
+    }
+
+    .hero-main .tagline strong {
+      color: var(--gold-soft);
+      font-weight: 500;
     }
 
     .hero-actions {
       margin-top: 16px;
       display: flex;
-      gap: 12px;
+      flex-wrap: wrap;
+      gap: 10px;
     }
 
     .btn {
-      padding: 10px 20px;
+      padding: 9px 18px;
       border-radius: var(--radius-pill);
       font-size: 14px;
-      cursor: pointer;
       font-weight: 500;
-      transition: 0.15s ease;
-      border: none;
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      border: none;
+      cursor: pointer;
+      transition: 0.14s ease;
+      white-space: nowrap;
     }
 
     .btn-primary {
       background: linear-gradient(135deg, #facc6b, #b8861b);
-      color: black;
+      color: #1a1306;
       box-shadow: var(--shadow-soft);
     }
 
     .btn-primary:hover {
       transform: translateY(-1px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.85);
     }
 
     .btn-ghost {
-      background: rgba(15, 23, 42, 0.8);
-      border: 1px solid rgba(243, 201, 106, 0.4);
+      background: rgba(11, 15, 28, 0.9);
+      border: 1px solid rgba(148, 163, 184, 0.5);
       color: var(--muted);
     }
 
+    .btn-ghost:hover {
+      border-color: rgba(243, 201, 106, 0.6);
+      background: rgba(15, 23, 42, 0.95);
+    }
+
+    .hero-footnote {
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--muted);
+      max-width: 460px;
+    }
+
+    /* Hero Card */
+
     .hero-card {
-      background: #030711;
-      border-radius: 20px;
-      padding: 20px;
+      background: var(--bg-soft);
+      border-radius: var(--radius-lg);
+      padding: 18px 18px 16px;
       border: var(--border-soft);
       box-shadow: var(--shadow-soft);
+      font-size: 13px;
+    }
+
+    .hero-card-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+      margin-bottom: 6px;
     }
 
     .hero-card-title {
-      font-size: 14px;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
     }
 
-    .hero-card-address {
-      font-family: monospace;
-      background: black;
-      padding: 8px 12px;
-      border-radius: 8px;
-      border: 1px solid var(--gold);
-      color: var(--gold);
-      word-break: break-all;
-      margin-top: 8px;
+    .hero-card-body {
+      margin-top: 10px;
     }
+
+    .addr {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+      background: #000;
+      border-radius: 9px;
+      padding: 7px 10px;
+      border: 1px solid rgba(243, 201, 106, 0.7);
+      word-break: break-all;
+      color: var(--gold);
+    }
+
+    .hero-card-meta {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    /* Sections */
 
     section {
-      margin-top: 50px;
+      margin-top: 32px;
     }
 
-    .section-title {
-      font-size: 22px;
-      font-weight: 600;
-      margin-bottom: 10px;
+    .section-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--muted);
+      margin-bottom: 4px;
     }
 
-    .section-body {
+    h2 {
+      font-size: 20px;
+      margin: 4px 0 8px;
+      color: var(--gold);
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.7;
       color: var(--muted);
       max-width: 760px;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 6px 0 10px;
+    }
+
+    li {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 3px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 14px;
+    }
+
+    @media (max-width: 880px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      background: #050712;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(31, 41, 55, 0.9);
+      padding: 14px 14px 16px;
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.75);
+    }
+
+    .card h3 {
       font-size: 15px;
+      margin: 4px 0 4px;
+      color: var(--gold-soft);
+    }
+
+    .card p {
+      font-size: 13px;
+      margin: 0;
+    }
+
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     }
 
     footer {
-      border-top: 1px solid rgba(243, 201, 106, 0.15);
-      padding-top: 20px;
-      font-size: 13px;
+      margin-top: 42px;
+      padding-top: 18px;
+      border-top: 1px solid rgba(31, 41, 55, 0.9);
+      font-size: 12px;
       color: var(--muted);
-      margin-top: 50px;
     }
 
-    footer a {
-      color: var(--gold);
-    }
+    footer a { color: var(--accent); }
   </style>
 </head>
 <body>
@@ -217,49 +333,191 @@
           <span>ONUCOIN</span>
         </div>
       </div>
+      <div class="nav-link">
+        <a href="/lore.html">Read the lore →</a>
+      </div>
     </header>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div>
-        <h1 class="hero-title">
-          <span class="gold">OnuCoin (ONU)</span> – the official reverse-vapid coin of the DIPAV™ universe.
-        </h1>
-        <p class="hero-subtitle">
-          OnuCoin embodies the <strong>UNO Reverse ethos</strong>: flipping narratives, rejecting hustle-culture absurdity, and rewarding the art of doing less — obviously, with style.
-        </p>
-        <div class="hero-actions">
-          <a href="#contract" class="btn btn-primary">View Contract</a>
-          <a href="#architecture" class="btn btn-ghost">DIPAV Architecture</a>
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-main">
+          <h1>OnuCoin (ONU)</h1>
+          <div class="tagline">
+            The official <strong>reverse-vapid token</strong> of the DIPAV™ universe.  
+            <strong>“ONU” is UNO reversed</strong> — a coin named after the act of flipping the game, not just playing it.
+          </div>
+          <div class="hero-actions">
+            <a href="#contract" class="btn btn-primary">View Contract</a>
+            <a href="/lore.html" class="btn btn-ghost">Explore the Lore</a>
+          </div>
+          <div class="hero-footnote">
+            OnuCoin is a symbolic, cultural, artistic asset — beyond financials, beyond promises, beyond Moons.  
+            It represents meaning, movement, and reversal. IYKYK.
+          </div>
         </div>
-      </div>
 
-      <div class="hero-card">
-        <div class="hero-card-title">Contract Address</div>
-        <div class="hero-card-address" id="contract">0x6dE119607B5606e60cD5879CeCB7Ea1d53aF992c</div>
-      </div>
-    </section>
+        <aside class="hero-card" id="contract">
+          <div class="hero-card-label">Contract · Base</div>
+          <div class="hero-card-title">OnuCoin (ONU)</div>
+          <div class="hero-card-body">
+            <div class="addr mono">
+              0x6dE119607B5606e60cD5879CeCB7Ea1d53aF992c
+            </div>
+          </div>
+          <div class="hero-card-meta">
+            Total Supply: <strong>4,444,444 ONU</strong> · Standard: ERC-20 · Network: Base  
+          </div>
+        </aside>
+      </section>
 
-    <!-- ARCHITECTURE -->
-    <section id="architecture">
-      <h2 class="section-title">Founder & Treasury Architecture</h2>
-      <p class="section-body">
-        OnuCoin uses a two-wallet structure for clarity and sovereignty: the <strong>Founder Wallet</strong> holds governance power with 4,400,000 ONU, while the <strong>Treasury Wallet</strong> holds 44,444 ONU for future DIPAV utilities, experiments, and ecosystem growth.
-      </p>
-    </section>
+      <!-- SECTION: Meaning -->
+      <section>
+        <div class="section-label">Meaning</div>
+        <h2>Why “OnuCoin” Exists at All</h2>
+        <p>
+          <strong>OnuCoin starts with a reversal.</strong>  
+          The name comes from taking <strong>UNO</strong> — the game of chaotic turns and surprise reversals — and flipping it to <strong>ONU</strong>.
+        </p>
+        <p>
+          UNO is about disruption, unexpected direction changes, and the sheer satisfaction of disrupting someone else’s perfect little plan. 
+          When you reverse UNO, you get the meta-move:
+        </p>
+        <ul>
+          <li>Not just playing the game, but standing above the rules.</li>
+          <li>Not just reacting to chaos, but choosing when the entire direction changes.</li>
+          <li>Not just surviving volatility, but deciding the moment momentum flips.</li>
+        </ul>
+        <p>
+          <strong>OnuCoin is that reversal turned into a token.</strong>  
+          A signal for people who quietly decide: “No. It doesn’t go that way anymore.”
+        </p>
+      </section>
 
-    <!-- DISCLAIMER -->
-    <section id="disclaimer">
-      <h2 class="section-title">Disclaimer</h2>
-      <p class="section-body">
-        OnuCoin (ONU) is a cultural and experimental asset within the DIPAV universe. Not financial advice. Engage only if you understand narrative-driven assets, crypto volatility, and the art of the reverse.
-      </p>
-    </section>
+      <!-- SECTION: DIPAV -->
+      <section>
+        <div class="section-label">Philosophy</div>
+        <h2>DIPAV — Vapid, Reversed</h2>
+        <p>
+          DIPAV™ is the larger movement. The word itself is simply <strong>VAPID reversed</strong>.
+        </p>
+        <p>
+          Where <em>vapid</em> is shallow, noisy, performative, and exhausting,  
+          <strong>DIPAV</strong> stands for depth, discernment, precision, and sovereignty of attention.
+        </p>
+        <p>
+          The nesting is simple:
+        </p>
+        <ul>
+          <li><strong>DIPAV</strong> is the philosophy — the anti-vapid doctrine.</li>
+          <li><strong>OnuCoin</strong> is the sigil — the on-chain symbol of that doctrine.</li>
+        </ul>
+        <p>
+          UNO → ONU: reverse the game.  
+          VAPID → DIPAV: reverse the culture.  
+          DIPAV is the worldview. OnuCoin is the emblem you carry.
+        </p>
+      </section>
+
+      <!-- SECTION: Draw Four -->
+      <section>
+        <div class="section-label">Cosmology</div>
+        <h2>The “Draw Four” Logic</h2>
+        <p>
+          In UNO, the <strong>Draw Four</strong> card doesn’t just tweak the game; it <em>reshapes the entire moment</em>. It forces a reset, a re-evaluation, and a complete shift in advantage.
+        </p>
+        <p>
+          In the DIPAV universe, <strong>Draw Four</strong> symbolizes:
+        </p>
+        <ul>
+          <li>Pattern interruption.</li>
+          <li>Total narrative pivot.</li>
+          <li>The moment where everything changes at once.</li>
+          <li>The right to reverse direction without apology.</li>
+        </ul>
+        <p>
+          That’s why OnuCoin’s total supply is <strong>4,444,444 ONU</strong>.  
+          The number isn’t aesthetic — it’s structural. Four encodes:
+        </p>
+        <ul>
+          <li>The four Anti-Vapid pillars.</li>
+          <li>The four phases of reversal.</li>
+          <li>The four steps of the Burn Out Like a King™ cycle.</li>
+          <li>The four cardinal directions of choice: stay, go, reverse, rewrite.</li>
+        </ul>
+      </section>
+
+      <!-- SECTION: Pillars -->
+      <section>
+        <div class="section-label">Pillars</div>
+        <h2>The Four Anti-Vapid Pillars</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>1. Reverse Vapid</h3>
+            <p>
+              Reject noise as a default.  
+              Edit, subtract, and place your attention where it actually matters.
+              Silence is not absence — it’s strategy.
+            </p>
+          </div>
+          <div class="card">
+            <h3>2. Draw Four</h3>
+            <p>
+              The right to pivot your life, work, or relationships without justification.  
+              Reversal is not failure — it’s sovereignty.
+            </p>
+          </div>
+          <div class="card">
+            <h3>3. Burn Out Like a King™</h3>
+            <p>
+              If you’re going to collapse, collapse in gold.  
+              Burnout becomes a coronation, not a curse — a story you own, not a secret you hide.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="margin-top:14px;">
+          <h3>4. Proof of Legendary™</h3>
+          <p>
+            In vapid culture, status is measured by output and noise.  
+            In DIPAV, it’s measured by narrative: the elegance of your exits, pivots, reversals, and the clarity of your story.
+          </p>
+        </div>
+      </section>
+
+      <!-- SECTION: Status -->
+      <section>
+        <div class="section-label">Status</div>
+        <h2>Genesis Phase · Anti-Vapid by Design</h2>
+        <p>
+          OnuCoin is live on Base, structured, and sovereign — but intentionally <strong>non-liquid</strong>.  
+          No liquidity pool. No chart. No rush.
+        </p>
+        <p>
+          DIPAV refuses to sprint for speculation.  
+          Narrative comes before markets.  
+          Culture comes before trading.
+        </p>
+        <p>
+          Liquidity, if and when it appears, will be a <strong>story beat</strong>, not a panic button.
+        </p>
+      </section>
+
+      <!-- SECTION: Links -->
+      <section>
+        <div class="section-label">Links</div>
+        <h2>Explore Further</h2>
+        <p>
+          • Main site: <a href="/">https://onucoin.vercel.app/</a><br />
+          • Lore page: <a href="/lore.html">OnuCoin Lore & DIPAV Cosmology</a><br />
+          • Contract (Base): <span class="mono">0x6dE119607B5606e60cD5879CeCB7Ea1d53aF992c</span>
+        </p>
+      </section>
+    </main>
 
     <footer>
-      <span>© <span id="year"></span> DIPAV™ · OnuCoin (ONU) · Built on Base</span>
+      © <span id="year"></span> DIPAV™ · OnuCoin (ONU) · Reverse-vapid, always.  
       <br />
-      <span>Contract: <a href="#contract">0x6dE119607B5606e60cD5879CeCB7Ea1d53aF992c/a></span>
+      <a href="/lore.html">Read the full lore</a>
     </footer>
   </div>
 
