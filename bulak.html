@@ -2,209 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Burn Out Like a King™ Protocol · BULAK · DIPAV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Burn Out Like a King™ (BULAK) · DIPAV Protocol</title>
   <meta
     name="description"
-    content="Burn Out Like a King™ (BULAK) protocol: a four-phase anti-vapid ritual for transforming burnout into sovereignty, narrative power, and DIPAV-aligned legend status."
+    content="Burn Out Like a King™ (BULAK): a four-phase anti-vapid protocol for transforming burnout into sovereignty, clarity, and narrative control within the DIPAV universe."
   />
-  <style>
-    :root {
-      --bg: #050508;
-      --bg-soft: #0b0b12;
-      --gold: #f3c96a;
-      --gold-soft: #c39b3d;
-      --text: #f5f5f5;
-      --muted: #a5a5b2;
-      --accent: #7dd3fc;
-      --border-soft: 1px solid rgba(243, 201, 106, 0.16);
-      --radius-lg: 18px;
-      --radius-pill: 999px;
-      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.8);
-    }
 
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
-      background: radial-gradient(circle at top, #171722, #050508 60%, #000 100%);
-      color: var(--text);
-      -webkit-font-smoothing: antialiased;
-    }
-
-    a { color: inherit; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    .page {
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 32px 20px 80px;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 24px;
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .logo-pill {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: #000;
-      border: 2px solid var(--gold);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-      font-weight: 800;
-      color: var(--gold);
-      box-shadow: var(--shadow-soft);
-    }
-
-    .brand-text {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    .brand-text span:first-child {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.22em;
-      color: var(--muted);
-    }
-
-    .brand-text span:last-child {
-      font-size: 16px;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--gold);
-    }
-
-    .nav-link {
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .nav-link a {
-      color: var(--accent);
-      font-weight: 500;
-      text-decoration: none;
-    }
-
-    .nav-link a:hover { text-decoration: underline; }
-
-    h1 {
-      font-size: clamp(26px, 4vw, 32px);
-      margin: 4px 0 6px;
-      color: var(--gold);
-      text-shadow: 0 0 20px rgba(243, 201, 106, 0.35);
-    }
-
-    .subtitle {
-      font-size: 14px;
-      color: var(--muted);
-      max-width: 640px;
-      line-height: 1.8;
-    }
-
-    section {
-      margin-top: 30px;
-    }
-
-    .section-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.22em;
-      color: var(--muted);
-      margin-bottom: 5px;
-    }
-
-    h2 {
-      font-size: 20px;
-      margin: 4px 0 8px;
-      color: var(--gold);
-    }
-
-    h3 {
-      font-size: 16px;
-      margin: 18px 0 4px;
-      color: var(--gold-soft);
-    }
-
-    p {
-      font-size: 14px;
-      color: var(--muted);
-      line-height: 1.8;
-      margin: 3px 0 10px;
-      max-width: 780px;
-    }
-
-    ul, ol {
-      padding-left: 18px;
-      margin: 6px 0 12px;
-    }
-
-    li {
-      font-size: 14px;
-      color: var(--muted);
-      margin-bottom: 4px;
-    }
-
-    .quote {
-      border-left: 2px solid rgba(243, 201, 106, 0.4);
-      padding-left: 12px;
-      font-style: italic;
-      color: var(--muted);
-      margin: 8px 0 14px;
-      font-size: 14px;
-    }
-
-    .card {
-      background: var(--bg-soft);
-      border-radius: var(--radius-lg);
-      border: var(--border-soft);
-      padding: 16px 16px 18px;
-      margin-top: 12px;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .pill {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--muted);
-      margin-bottom: 4px;
-    }
-
-    .mono {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    }
-
-    footer {
-      margin-top: 40px;
-      padding-top: 18px;
-      border-top: 1px solid rgba(31, 41, 55, 0.95);
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    footer a { color: var(--accent); }
-  </style>
+  <!-- Global styles -->
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
+
 <body>
   <div class="page">
+    <!-- HEADER -->
     <header>
       <div class="brand">
         <div class="logo-pill">👑</div>
@@ -213,250 +25,192 @@
           <span>BULAK</span>
         </div>
       </div>
-      <div class="nav-link">
-        <a href="/index.html">← Main</a> · <a href="/lore.html">Lore</a>
-      </div>
+
+      <nav class="nav-link">
+        <a href="/index.html">Main</a>
+        <a href="/lore.html">Lore</a>
+      </nav>
     </header>
 
+    <!-- MAIN -->
     <main>
       <h1>Burn Out Like a King™ (BULAK)</h1>
-      <div class="subtitle">
-        A four-phase anti-vapid protocol for transforming burnout into sovereignty, legend status, and narrative control.
-        Not coping. Not grinding. Not pretending. A ceremonial reversal of how the world expects you to fall apart.
-      </div>
 
-      <!-- 1. Why BULAK exists -->
+      <p class="subtitle">
+        A four-phase anti-vapid protocol for transforming burnout into sovereignty,
+        clarity, and narrative control. Not coping. Not grinding. A deliberate
+        reversal of how collapse is supposed to look.
+      </p>
+
+      <!-- 1 · Context -->
       <section id="why">
         <div class="section-label">1 · Context</div>
         <h2>Why Burn Out Like a King Exists</h2>
-        <p>
-          The modern script says:
-        </p>
+
+        <p>The modern script says:</p>
         <ul>
           <li>Grind until you break.</li>
           <li>Hide the break.</li>
-          <li>Come back “stronger than ever.”</li>
-          <li>Repeat until there’s nothing left.</li>
+          <li>Return “stronger than ever.”</li>
+          <li>Repeat.</li>
         </ul>
+
         <p>
-          This is vaporized humanity in a productivity costume. It’s vapid.
+          This is vapid culture wearing a productivity costume.
+          <strong>BULAK</strong> is the DIPAV refusal:
         </p>
-        <p>
-          <strong>Burn Out Like a King™ (BULAK)</strong> is the DIPAV response:
-        </p>
+
         <ul>
-          <li>You do not hide the burnout.</li>
-          <li>You do not glamorize it either.</li>
-          <li>You treat it as a signal, a ritual, and a turning point.</li>
+          <li>You do not hide burnout.</li>
+          <li>You do not glamorize it.</li>
+          <li>You treat it as a signal and a pivot.</li>
           <li>You exit the loop instead of rejoining it.</li>
         </ul>
+
         <p>
-          Bulak is not about “failing gracefully.”  
-          It is about <strong>refusing to be eaten by your own excellence.</strong>
+          Burn Out Like a King™ is not about failing gracefully.
+          It is about <strong>refusing to be consumed by your own excellence</strong>.
         </p>
       </section>
 
-      <!-- 2. The Four Phases -->
+      <!-- 2 · Core Protocol -->
       <section id="phases">
         <div class="section-label">2 · Core Protocol</div>
         <h2>The Four Phases of BULAK</h2>
-        <p>
-          Like everything in the DIPAV universe, BULAK runs on a four-step architecture.
-        </p>
 
         <div class="card">
-          <div class="pill">Phase I</div>
-          <h3>Overload — The System Fails You</h3>
+          <h3>Phase I — Overload</h3>
           <p>
-            This isn’t about being “weak.” The system is simply unsustainable:
+            This is not weakness. It is structural failure.
           </p>
           <ul>
-            <li>Your calendar is a crime scene.</li>
+            <li>Your calendar is unsustainable.</li>
             <li>Your nervous system is overclocked.</li>
-            <li>Your emotional bandwidth is traded like it’s infinite.</li>
+            <li>Your capacity is treated as infinite.</li>
           </ul>
           <p>
-            In DIPAV, burnout is not an indictment of you.  
-            It’s an indictment of the structure you were put inside.
+            In DIPAV terms, burnout indicts the system — not you.
           </p>
         </div>
 
         <div class="card">
-          <div class="pill">Phase II</div>
-          <h3>Refusal — You Stop Pretending</h3>
-          <p>
-            This is the reversal point.
-          </p>
-          <p>
-            You stop:
-          </p>
+          <h3>Phase II — Refusal</h3>
+          <p>This is the reversal point.</p>
           <ul>
-            <li>saying “it’s fine” when it isn’t,</li>
-            <li>making efficiency excuses for self-erasure,</li>
-            <li>trying to out-grind a broken design.</li>
+            <li>You stop saying “it’s fine.”</li>
+            <li>You stop justifying self-erasure.</li>
+            <li>You stop optimizing a broken design.</li>
           </ul>
           <p>
-            Instead, you name it:
-          </p>
-          <div class="quote">
-            “This is too much. This is unsustainable. I refuse to continue as if this is normal.”
-          </div>
-          <p>
-            Refusal is the first true act of sovereignty.  
-            You can’t Burn Out Like a King if you insist you “love the grind.”
+            Refusal is the first act of sovereignty.
           </p>
         </div>
 
         <div class="card">
-          <div class="pill">Phase III</div>
-          <h3>Coronation — Crowned in Clarity</h3>
+          <h3>Phase III — Coronation</h3>
           <p>
-            This is where most people stop: they crash, recover, and quietly slide back into the same loop.
-          </p>
-          <p>
-            BULAK demands something different:
+            Instead of rushing back, you harvest the data.
           </p>
           <ul>
-            <li>You harvest the data from the burnout.</li>
-            <li>You identify exactly which systems, expectations, and dynamics broke you.</li>
-            <li>You elevate your standards permanently.</li>
+            <li>What broke you?</li>
+            <li>What will never be tolerated again?</li>
+            <li>What standards rise permanently?</li>
           </ul>
           <p>
-            The coronation moment is when you realize:
-          </p>
-          <div class="quote">
-            “If I survived this, I am never again available for a life this badly designed.”
-          </div>
-          <p>
-            The crown isn’t metaphorical. It’s structural: your future self is granted permanent veto power.
+            The crown is structural: your future self gains veto power.
           </p>
         </div>
 
         <div class="card">
-          <div class="pill">Phase IV</div>
-          <h3>Reauthoring — The New Script</h3>
+          <h3>Phase IV — Reauthoring</h3>
           <p>
-            Now you rewrite.  
-          </p>
-          <p>
-            Reauthoring can look like:
+            Now the life is redesigned.
           </p>
           <ul>
-            <li>changing work structure,</li>
-            <li>setting boundaries that feel “too high” for your old self,</li>
-            <li>recalibrating your ambitions to fit your actual life, not your ego,</li>
-            <li>walking away from roles that only respect you when you’re breaking.</li>
+            <li>Work structures change.</li>
+            <li>Boundaries harden.</li>
+            <li>Ambition is recalibrated to reality.</li>
+            <li>Roles that reward collapse are exited.</li>
           </ul>
           <p>
-            BULAK doesn’t end when you “feel better.”  
-            It ends when your life is <strong>re-architected</strong> to never demand that level of self-betrayal again.
+            BULAK ends when collapse is no longer normalized.
           </p>
+        </div>
       </section>
 
-      <!-- 3. Anti-Vapid Constraints -->
+      <!-- 3 · Anti-Vapid Constraints -->
       <section id="constraints">
-        <div class="section-label">3 · Anti-Vapid Guarantees</div>
-        <h2>What BULAK Is Not Allowed to Become</h2>
-        <p>
-          To keep Burn Out Like a King™ from becoming just another hustle-aesthetic,
-          DIPAV imposes several constraints:
-        </p>
+        <div class="section-label">3 · Constraints</div>
+        <h2>What BULAK Is Not</h2>
+
         <ul>
-          <li><strong>Not content for performance.</strong> Sharing your burnout is optional; glamorizing it is banned.</li>
-          <li><strong>Not a productivity hack.</strong> BULAK is not an excuse to push harder next time “because you survived.”</li>
-          <li><strong>Not a flex based on suffering.</strong> More pain ≠ more status. Clarity and reversal are what matter.</li>
-          <li><strong>Not martyrdom.</strong> You are not burning out for others. You are reclaiming yourself.</li>
+          <li><strong>Not content.</strong> Performance is optional. Glamorization is banned.</li>
+          <li><strong>Not a hack.</strong> It is not a way to push harder next time.</li>
+          <li><strong>Not martyrdom.</strong> Suffering does not create status.</li>
+          <li><strong>Not productivity cosplay.</strong> Clarity outranks output.</li>
         </ul>
+
         <p>
-          The entire point is anti-vapid:  
-          It’s not about appearing strong.  
-          It’s about refusing to keep playing weak.
+          The goal is anti-vapid: refuse weakness masquerading as resilience.
         </p>
       </section>
 
-      <!-- 4. Possible Future Implementation -->
+      <!-- 4 · Speculative Mechanics -->
       <section id="future">
-        <div class="section-label">4 · Speculative Mechanics</div>
+        <div class="section-label">4 · Speculation</div>
         <h2>If BULAK Ever Becomes On-Chain</h2>
+
         <p>
-          Right now, BULAK is a narrative and behavioral protocol, not a smart contract.  
-          But if the DIPAV universe ever chooses, here’s how it could theoretically surface on-chain:
+          BULAK is currently narrative and behavioral — not contractual.
+          If it ever surfaces on-chain, it would emphasize meaning over reward.
         </p>
 
         <div class="card">
-          <h3>On-Chain Checkpoints</h3>
-          <p>
-            Users could:
-          </p>
+          <h3>Symbolic Checkpoints</h3>
           <ul>
-            <li>log a BULAK event (Overload → Refusal),</li>
-            <li>attest to structural changes they made,</li>
-            <li>mint a “Crown NFT” once reauthoring is complete.</li>
+            <li>Logging a completed reversal.</li>
+            <li>Attesting to structural change.</li>
+            <li>Minting a non-transferable marker.</li>
           </ul>
-          <p>
-            The point wouldn’t be to farm rewards, but to anchor the reversal in a visible, un-editable way.
-          </p>
         </div>
 
         <div class="card">
           <h3>Legend Registry</h3>
           <p>
-            A registry (on- or off-chain) where people who have completed a full BULAK cycle can:
-          </p>
-          <ul>
-            <li>log lessons learned,</li>
-            <li>codify their “never again” clauses,</li>
-            <li>serve as quiet reference points for others.</li>
-          </ul>
-          <p>
-            No leaderboard. No competition. Just receipts that you didn’t go back.
-          </p>
-        </div>
-
-        <div class="card">
-          <h3>Reversal-Linked Rituals</h3>
-          <p>
-            DIPAV rituals could be tied to milestones like:
-          </p>
-          <ul>
-            <li>burning a metaphorical “old schedule,”</li>
-            <li>locking specific behaviors out of your future,</li>
-            <li>using OnuCoin symbolically to mark the end of a loop.</li>
-          </ul>
-          <p>
-            Again: no token farming. Pure symbolism, protocol-level meaning.
+            A quiet archive of completed cycles. No leaderboard.
+            No optimization. Just proof you didn’t go back.
           </p>
         </div>
       </section>
 
-      <!-- 5. Summary -->
+      <!-- 5 · Summary -->
       <section id="summary">
         <div class="section-label">5 · Summary</div>
         <h2>What It Means to Burn Out Like a King™</h2>
-        <p>
-          To Burn Out Like a King™ is to refuse to be reduced by exhaustion.
-        </p>
-        <p>
-          It means:
-        </p>
+
         <ul>
-          <li>You tell the truth about your limits.</li>
-          <li>You refuse to apologize for needing to stop.</li>
+          <li>You tell the truth about limits.</li>
+          <li>You refuse to apologize for stopping.</li>
           <li>You extract lessons instead of shame.</li>
-          <li>You design your life so that this level of collapse is never normalized again.</li>
+          <li>You design a life that never requires this collapse again.</li>
         </ul>
+
         <p>
-          The world wants you to burn out quietly and come back grateful.  
-          DIPAV wants you to burn out loudly once, re-architect everything, and never play that version of the game again.
+          The world wants quiet burnout and grateful returns.
+          DIPAV demands one loud reversal — and structural immunity thereafter.
         </p>
       </section>
     </main>
 
+    <!-- FOOTER -->
     <footer>
-      BULAK Lore maintained by DIPAV HQ · Reverse-vapid, always.
+      BULAK lore maintained by DIPAV™ · Reverse-vapid, always.
       <br />
-      <a href="/index.html">Return to OnuCoin main page</a> · <a href="/lore.html">Back to lore index</a>
+      <a href="/index.html">Back to OnuCoin</a> · <a href="/lore.html">Lore index</a>
     </footer>
   </div>
+
+  <!-- Scripts -->
+  <script src="/js/main.js" defer></script>
 </body>
 </html>
